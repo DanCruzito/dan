@@ -34,6 +34,7 @@ nav ul{
     list-style: none;
     margin-right: 40px;
     position: relative;
+   
 }
 nav ul li{
     text-shadow: 5px 4px 9px #131212;
@@ -42,6 +43,7 @@ nav ul li{
     display: inline-block;
     /*background: #1b1b1b;*/
     margin: 0 5px;
+    
 }
 nav ul li a{
     color: white;
@@ -110,7 +112,7 @@ nav ul ul ul li {
         text-align: center;
     }
     nav .logo{
-        padding-left:: 30px;
+        padding-left: 30px;
         width: 100%;
     }
     nav ul li, nav ul ul li{

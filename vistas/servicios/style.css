@@ -10,7 +10,7 @@
 @import url(css/custom-icon.css);
 @import url(css/classy-nav.min.css);
 /* :: 3.0 Base CSS */
-* {
+/* * {
   margin: 0;
   padding: 0; }
 
@@ -138,7 +138,10 @@ img {
   padding-top: 100px;
   padding-bottom: 70px; }
 
-/* Section Heading */
+ */
+
+
+Section Heading
 .section-heading {
   position: relative;
   z-index: 1;
@@ -163,6 +166,9 @@ img {
   .section-heading.white span,
   .section-heading.white h3 {
     color: #ffffff; }
+
+
+
 
 /* Preloader */
 #preloader {
@@ -253,7 +259,7 @@ img {
       right: 0; } }
 
 /* ScrollUp */
-#scrollUp {
+/* #scrollUp {
   background: #61ba6d;
   background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
   background: linear-gradient(to right, #61ba6d, #83c331);
@@ -274,10 +280,10 @@ img {
   @media only screen and (max-width: 767px) {
     #scrollUp {
       bottom: 30px;
-      right: 30px; } }
+      right: 30px; } } */
 
 /* Essence Button */
-.academy-btn {
+/* .academy-btn {
   display: inline-block;
   min-width: 160px;
   height: 65px;
@@ -319,10 +325,10 @@ img {
     color: #606060; }
     .academy-btn.btn-4:hover, .academy-btn.btn-4:focus {
       background: #69bc5f;
-      color: #ffffff; }
+      color: #ffffff; } */
 
 /* Header Area CSS */
-.header-area {
+/* .header-area {
   position: relative;
   z-index: 100;
   width: 100%;
@@ -349,8 +355,8 @@ img {
     .header-area .academy-main-menu .classy-navbar {
       background-color: #f5f7fa;
       height: 85px;
-      padding: 0; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 0; } */
+      /* @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .academy-main-menu .classy-navbar {
           padding: 0;
           padding-left: 2em; } }
@@ -410,8 +416,8 @@ img {
             margin-right: 20px; }
             @media only screen and (min-width: 992px) and (max-width: 1199px) {
               .header-area .academy-main-menu .calling-info .call-center a i {
-                margin-right: 10px; } }
-          @media only screen and (max-width: 767px) {
+                margin-right: 10px; } } */
+          /* @media only screen and (max-width: 767px) {
             .header-area .academy-main-menu .calling-info .call-center a span {
               display: none; } }
         .header-area .academy-main-menu .calling-info .call-center:before {
@@ -445,7 +451,7 @@ img {
       right: 0;
       z-index: 1;
       background-color: #83c331;
-      content: ''; }
+      content: ''; } */
 
 .hero-slides {
   position: relative;
@@ -524,7 +530,7 @@ img {
     visibility: visible; }
 
 /* Top Features Area CSS */
-.top-features-area {
+/* .top-features-area {
   position: relative;
   z-index: 50;
   margin-bottom: -60px; }
@@ -574,7 +580,7 @@ img {
         .top-features-area .features-content .col-12:last-child .single-top-features {
           border: none;
           padding-bottom: 0;
-          margin-bottom: 0; } }
+          margin-bottom: 0; } } */
 
 /* Course Area CSS */
 .single-course-area .course-icon {
@@ -1156,7 +1162,7 @@ img {
     margin-bottom: 0; }
 
 /* Accordians */
-.single-accordion.panel {
+/* .single-accordion.panel {
   background-color: #ffffff;
   border: 0 solid transparent;
   border-radius: 4px;
@@ -1206,7 +1212,7 @@ img {
   box-shadow: none; }
   .single-accordion .accordion-content p {
     padding: 20px 15px 5px;
-    margin-bottom: 0; }
+    margin-bottom: 0; } */
 
 /* Tabs CSS*/
 .academy-tabs-content {
@@ -1239,7 +1245,7 @@ img {
     font-size: 18px; }
 
    .hero-slides {
-    height: 650px;
+    height: 650px; 
    }
     
 
